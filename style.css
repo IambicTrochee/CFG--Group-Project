@@ -1,0 +1,258 @@
+body {
+    background-color: #f8dd90;
+    padding: 0px;
+    margin: 0px;
+    border: 0px
+}
+
+a {
+    text-decoration: none;
+    color: #59879e;
+}
+
+h1 {
+    color: #f8dd90;
+    font-family: Open Sans, Calibri, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    border: 0px;
+    left-padding: 70px;
+    bottom-padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #2b3340;
+    z-index: 0;
+}
+
+.menu {
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+    float: right;
+    z-index: 1;
+}
+
+.menu p {
+  padding: 0;
+  margin: 0;
+}
+
+#teaching {
+    color: #59879e;
+    cursor: pointer;
+}
+
+#creative {
+    color: #59879e;
+    cursor: pointer;
+}
+
+#teaching-menu {
+    position: absolute;
+    top: 68px;
+    right: 0px;
+    display: block;
+    background-color: #007676;
+    z-index: 1;
+}
+
+#teaching-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#teaching-menu li {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    color: #59879e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+  	float: right;
+}
+
+#teaching-menu p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#creative-clicked {
+  color: white;
+}
+
+#creative-menu {
+    position: absolute;
+    top: 68px;
+    right: 0px;
+    display: block;
+    background-color: #007676;
+    z-index: 1;
+}
+
+#creative-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#creative-menu li {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    color: #59879e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+  	float: right;
+}
+
+#creative-menu p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+    position: relative;
+  	top: 70px;
+  	left: 20px;
+  	width: 70%;
+  	display: inline-block;
+    margin: 0px;
+}
+
+.main h2 {
+    color: #6ca8c5;
+    background-color: #2b3340;
+    font-family: Open Sans, sans-serif;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.main hr {
+    color: #6ca8c5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main p {
+    font-family: Helvetica;
+    color: #2b3340;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form {
+    font-family: Helvetica;
+    padding-left: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.button {
+    padding-left: 94px;
+}
+
+table {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+tr > td > h3 {
+    background-color: #4bb499;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    color: #2b3340;
+    margin: auto;
+    padding: auto;
+}
+
+td {
+    margin: auto;
+    padding: auto;
+}
+
+td p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.price {
+    text-align: right;
+}
+
+.side {
+    width: 20%;
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 70px;
+    right: 50px;
+}
+
+.side hr {
+    color: #2b3340;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.side h2 {
+    color: #2b3340;
+    background-color: #4bb499;
+    font-family: Open Sans, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.side p {
+    font-family: Helvetica, sans-serif;
+    color: #9B4600;
+}
+
+iframe {
+    margin: 5px, 0px, 5px, 0px;
+    padding: 0px;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #2b3340;
+    width: 100%;
+    clear: both;
+}
+
+#footer p {
+    font-family: Helvetica;
+    color: #59879e;
+    padding-left: 30px;
+}
