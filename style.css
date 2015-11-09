@@ -5,136 +5,8 @@ body {
     border: 0px
 }
 
-a {
-    text-decoration: none;
-    color: #59879e;
-}
-
-h1 {
-    color: #f8dd90;
-    font-family: Open Sans, Calibri, Helvetica, sans-serif;
-    font-size: 60px;
-    margin: 0px;
-    border: 0px;
-    left-padding: 70px;
-    bottom-padding: 0px;
-    position: fixed;
-    width: 100%;
-    background-color: #2b3340;
-    z-index: 0;
-}
-
-.menu {
-    z-index: 1;
-}
-
-.menu ul {
-    list-style: none;
-    margin: 0;
-}
-
-.menu li {
-    font-family: Open Sans, sans-serif;
-    font-size: 24px;
-    padding-top: 30px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline;
-    float: right;
-    z-index: 1;
-}
-
-.menu p {
-  padding: 0;
-  margin: 0;
-}
-
-#teaching {
-    color: #59879e;
-    cursor: pointer;
-}
-
-#creative {
-    color: #59879e;
-    cursor: pointer;
-}
-
-#teaching-menu {
-    position: absolute;
-    top: 68px;
-    right: 0px;
-    display: block;
-    background-color: #007676;
-    z-index: 1;
-}
-
-#teaching-menu ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-#teaching-menu li {
-    font-family: Open Sans, sans-serif;
-    font-size: 24px;
-    color: #59879e;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: block;
-  	float: right;
-}
-
-#teaching-menu p {
-  margin: 0px;
-  padding: 0px;
-}
-
-#creative-clicked {
-  color: white;
-}
-
-#creative-menu {
-    position: absolute;
-    top: 68px;
-    right: 0px;
-    display: block;
-    background-color: #007676;
-    z-index: 1;
-}
-
-#creative-menu ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-#creative-menu li {
-    font-family: Open Sans, sans-serif;
-    font-size: 24px;
-    color: #59879e;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: block;
-  	float: right;
-}
-
-#creative-menu p {
-  margin: 0px;
-  padding: 0px;
-}
-
-.main {
-    position: relative;
-  	top: 70px;
-  	left: 20px;
-  	width: 70%;
-  	display: inline-block;
-    margin: 0px;
+hr {
+    color: #2b3340
 }
 
 .main h2 {
@@ -158,32 +30,17 @@ h1 {
     padding-right: 10px;
 }
 
-form {
-    font-family: Helvetica;
-    padding-left: 10px;
-}
-
-label {
-    display: inline-block;
-    width: 90px;
-}
-
-textarea {
-    vertical-align: top;
-}
-
-.button {
-    padding-left: 94px;
-}
-
 table {
     margin: auto;
     padding: auto;
     width: 100%;
 }
 
-tr > td > h3 {
+.table-header{
     background-color: #4bb499;
+}
+
+tr > td > h3 {
     font-family: Open Sans, sans-serif;
     text-align: center;
     color: #2b3340;
@@ -206,7 +63,6 @@ td p {
 }
 
 .side {
-    width: 20%;
     display: inline-block;
     padding: auto;
     margin: auto;
@@ -214,8 +70,6 @@ td p {
     text-align: center;
     float: right;
     position: relative;
-    top: 70px;
-    right: 50px;
 }
 
 .side hr {

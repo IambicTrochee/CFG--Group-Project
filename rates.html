@@ -1,148 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href='dist/css/bootstrap.css' rel='stylesheet'>
 	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
+<!--	<script src='script.js'></script>-->
 	<title>Ryan O'Riordan</title>
 </head>
 <body>
-  	<div id="menu-bar"></div>
-    <div class="menu">
-        <ul>
-            <div id="about"><li><p>
-                <a href="about.html">ABOUT</a>
-            </p></li></div>
-            <div id="creative"><li><p>
-                CREATIVE
-            </p></li></div>
-            <div id="teaching"><li><p>
-                TEACHING
-            </p></li></div>
-            <div id="contact"><li><p>
-                <a href="contact.html">CONTACT</a>
-            </p></li></div>
-        </ul>
-    </div>
-    <div id="creative-menu">
-    	<ul>
-        	<li><p><a href="takeaseat.html">TAKE A SEAT</a></p></li>
-        	<li><p><a href="hhc.html">HAPPY HOUR COLLECTIVE</a></p></li>
-        </ul>
-    </div>
-    <div id="teaching-menu">
-      	<ul>
-        	<li><p><a href="islingtonchoir.html">ISLINGTON COMMUNITY CHOIR</a></li>
-          	<li><p><a href="rates.html">RATES</a></p></li>
-        </ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <h1>RYAN O'RIORDAN</h1>
     </div>
 
-    <div id="header"><h1>RYAN O'RIORDAN</h1></div>
-    <div class="main">
-        <h2>RATES</h2> <hr></hr>
-        <p>Alas, the business side of things! These are a rough guide to what prices to expect: however, everyone is different and for students who need it or have hit hard times I am happy to negotiate a price that works for everyone.</p> 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creative <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Happy Hour Collective</a></li>
+            <li><a href="#">Take A Seat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Rates</a></li>
+            <li><a href="#">Islington Choir</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="main">
+                    <h2>RATES</h2> <hr></hr>
+                    <p>Alas, the business side of things! These are a rough guide to what prices to expect: however, everyone is different and for students who need it or have hit hard times I am happy to negotiate a price that works for everyone.</p> 
 
-        <p>All students are expected to bring the following: pencil, paper, bottle of water, and a blank book for keeping notes in. If any of these materials are unobtainable then just let me know.</p>
-        <table>
-            <tr>
-                <td colspan=2><h3>ONE TO ONE</h3></td>
-                <td colspan=2><h3>PAIRS AND GROUPS</h3></td>
-                <td colspan=2><h3>ONE TO ONE</h3></td>
-            </tr>
-            <tr>
-                <td colspan=6><hr></hr></td>
-            </tr>
-            <tr>
-                <td colspan=2><p>Under 16s</p></td>
-                <td colspan=2><p>Paired lessons are not concessional</p></td>
-                <td colspan=2><p>Adults and professionals</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>30 minutes</p></td><td class="price"><p>£15.00</p></td>
-                <td><p>30 minutes</p></td><td class="price"><p>£20.00</p></td>
-                <td><p>30 minutes</p></td><td class="price"><p>£20.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>1 hour</p></td><td class="price"><p>£25.00</p></td>
-                <td><p>1 hour</p></td><td class="price"><p>£40.00</p></td>
-                <td><p>1 hour</p></td><td class="price"><p>£35.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>10 lessons (30 minutes)</p></td><td class="price"><p>£135.00</p></td>
-                <td><p>Choir conducting</p></td><td class="price"><p>£30.00 per hour</p></td>
-                <td><p>10 lessons (30 minutes)</p></td><td class="price"><p>£180.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>15 lessons (30 minutes)</p></td><td class="price"><p>£195.00</p></td>
-                <td><p>Choir conducting and arranging</p></td><td class="price"><p>£35.00 per hour</p></td>
-                <td><p>15 lessons (30 minutes)</p></td><td class="price"><p>£260.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>10 lessons (1 hour)</p></td><td class="price"><p>£225.00</p></td>
-                <td></td><td></td>
-                <td><p>10 lessons (1 hour)</p></td><td class="price"><p>£315.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>15 lessons (1 hour)</p></td><td class="price"><p>£325.00</p></td>
-                <td></td><td></td>
-                <td><p>15 lessons (1 hour)</p></td><td class="price"><p>£455.00</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-            <tr>
-                <td><p>One hour consultation</p></td><td class="price"><p>FREE</p></td>
-                <td></td><td></td>
-                <td><p>One hour consultation</p></td><td class="price"><p>FREE</p></td>
-            </tr>
-            <tr>
-                <td colspan=2><hr></hr></td>
-                <td colspan=2></td>
-                <td colspan=2><hr></hr></td>
-            </tr>
-        </table>
-    </div>
-    <div class="side">
-    <h2>FOLLOW ME</h2>
-    <hr></hr>
-    <a href="http://www.facebook.com/ryanthesingingteacher">
-    	<img width="40" height="40" src="facebook-logo.png"/>
-    </a>
-    <a href="https://plus.google.com/106423806976787898474">
-	<img width="40" height="40" src="googleplus-logo.png"/>
-    </a>
-    <iframe width="100%" src="https://www.youtube.com/embed/oO92u8ljn0g" frameborder="0" allowfullscreen></iframe>
+                    <p>All students are expected to bring the following: pencil, paper, bottle of water, and a blank book for keeping notes in. If any of these materials are unobtainable then just let me know.</p>
+                    <table>
+                        <tr class="table-header">
+                            <td colspan=2><h3>ONE TO ONE</h3></td>
+                            <td colspan=2><h3>PAIRS AND GROUPS</h3></td>
+                            <td colspan=2><h3>ONE TO ONE</h3></td>
+                        </tr>
+                        <tr>
+                            <td colspan=6><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><p>Under 16s</p></td>
+                            <td colspan=2><p>Paired lessons are not concessional</p></td>
+                            <td colspan=2><p>Adults and professionals</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>30 minutes</p></td><td class="price"><p>£15.00</p></td>
+                            <td><p>30 minutes</p></td><td class="price"><p>£20.00</p></td>
+                            <td><p>30 minutes</p></td><td class="price"><p>£20.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>1 hour</p></td><td class="price"><p>£25.00</p></td>
+                            <td><p>1 hour</p></td><td class="price"><p>£40.00</p></td>
+                            <td><p>1 hour</p></td><td class="price"><p>£35.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>10 lessons (30 minutes)</p></td><td class="price"><p>£135.00</p></td>
+                            <td><p>Choir conducting</p></td><td class="price"><p>£30.00 per hour</p></td>
+                            <td><p>10 lessons (30 minutes)</p></td><td class="price"><p>£180.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>15 lessons (30 minutes)</p></td><td class="price"><p>£195.00</p></td>
+                            <td><p>Choir conducting and arranging</p></td><td class="price"><p>£35.00 per hour</p></td>
+                            <td><p>15 lessons (30 minutes)</p></td><td class="price"><p>£260.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>10 lessons (1 hour)</p></td><td class="price"><p>£225.00</p></td>
+                            <td></td><td></td>
+                            <td><p>10 lessons (1 hour)</p></td><td class="price"><p>£315.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>15 lessons (1 hour)</p></td><td class="price"><p>£325.00</p></td>
+                            <td></td><td></td>
+                            <td><p>15 lessons (1 hour)</p></td><td class="price"><p>£455.00</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                        <tr>
+                            <td><p>One hour consultation</p></td><td class="price"><p>FREE</p></td>
+                            <td></td><td></td>
+                            <td><p>One hour consultation</p></td><td class="price"><p>FREE</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2><hr></hr></td>
+                            <td colspan=2></td>
+                            <td colspan=2><hr></hr></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="side">
+                <h2>FOLLOW ME</h2>
+                <hr></hr>
+                <a href="http://www.facebook.com/ryanthesingingteacher">
+                	<img width="40" height="40" src="facebook-logo.png"/>
+                </a>
+                <a href="https://plus.google.com/106423806976787898474">
+            	<img width="40" height="40" src="googleplus-logo.png"/>
+                </a>
+                <iframe width="100%" src="https://www.youtube.com/embed/oO92u8ljn0g" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="footer"><p>&copy 2015 Ryan O'Riordan | Website by Sally Luong</p></div>
 </body>
