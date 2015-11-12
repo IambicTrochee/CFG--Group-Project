@@ -1,12 +1,78 @@
 body {
-    background-color: #f8dd90;
+    background-color: #F8DD90;
     padding: 0px;
     margin: 0px;
-    border: 0px
+    border: 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.navbar-custom {
+    position: fixed;
+    top: 0px;
+    background-color: #2B3340;
+    border-radius: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #2b3340;
+  background-color: #4bb499;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #2b3340;
+  background-color: #4bb499;
+}
+
+.icon-bar {
+    background-color: #F8DD90;
+}
+
+.navbar-custom a {
+    color: #F8DD90;
+}
+
+.navbar-custom a:hover {
+    background-color: #4BB499;
+}
+
+.dropdown-menu > .active > a {
+    background-color: #4BB499;
+}
+
+.dropdown {
+    background-color: #2B3340;
+}
+
+.dropdown-menu {
+    background-color: #2B3340;
+}
+
+.dropdown-menu li a {
+    color: #F8DD90;
+}
+
+.brand {
+    z-index: 2000;
+    position: fixed;
+    top: 8px;
+    left: 5px;
+}
+
+.brand a {
+    font-size: 30pt;
+    color: #F8DD90;
+    text-decoration: none;
 }
 
 a {
     font-family: Open Sans;
+    color: #6ca8c5;
+    text-decoration: none;
 }
 
 h1 {
@@ -14,13 +80,9 @@ h1 {
     font-size: 40pt;
 }
 
-hr {
-    color: #2b3340
+.container hr {
     margin: 0px;
-}
-
-.main{
-    margin-bottom: 10px;
+    border-top: 1px solid #2b3340;
 }
 
 .main h2 {
@@ -29,12 +91,6 @@ hr {
     font-family: Open Sans, sans-serif;
     margin: 0px;
     padding-left: 10px;
-}
-
-.main hr {
-    color: #6ca8c5;
-    padding: 0px;
-    margin: 0px;
 }
 
 .main p {
@@ -50,7 +106,7 @@ hr {
 }
 
 .table-header {
-    background-color: #4bb499;
+    background-color: #4BB499;
     margin: 0px;
     text-align: center;
     border-top: 1px solid #2b3340;
@@ -69,24 +125,15 @@ hr {
 }
 
 .side {
-    display: inline-block;
     padding: auto;
     margin: auto;
     justify-content: center;
     text-align: center;
-    float: right;
-    position: relative;
-}
-
-.side hr {
-    color: #2b3340;
-    margin-top: 0px;
-    padding: 0px;
 }
 
 .side h2 {
     color: #2b3340;
-    background-color: #4bb499;
+    background-color: #4BB499;
     font-family: Open Sans, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -97,6 +144,10 @@ hr {
     color: #9B4600;
 }
 
+.side img {
+    padding: 4px;
+}
+
 iframe {
     margin: 5px, 0px, 5px, 0px;
     padding: 0px;
@@ -105,7 +156,7 @@ iframe {
 .footer {
     background-color: #2b3340;
     padding: 3px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }

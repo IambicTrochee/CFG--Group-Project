@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href='dist/css/bootstrap.css' rel='stylesheet'>
-	<link rel='stylesheet' href='style.css'/>
+    <link href='dist/css/bootstrap.min.css' rel='stylesheet'>
+	<link href='style.css'rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<!--	<script src='script.js'></script>-->
 	<title>Ryan O'Riordan</title>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-custom">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <h1>RYAN O'RIORDAN</h1>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">ABOUT</a></li>
         <li class="dropdown">
@@ -30,7 +32,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TEACHING <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">RATES</a></li>
+            <li class="active"><a href="#">RATES</a></li>
             <li><a href="#">ISLINGTON CHOIR</a></li>
           </ul>
         </li>
@@ -39,6 +41,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<div class="brand">
+    <a href="#">RYAN O'RIORDAN</a>
+</div>
     <div class="container">
         <div class="row">
             <div class="col-sm-9">
@@ -155,18 +160,16 @@
                         </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="side">
+            <div class="col-sm-3 side">
                 <h2>FOLLOW ME</h2>
                 <hr></hr>
                 <a href="http://www.facebook.com/ryanthesingingteacher">
                 	<img width="40" height="40" src="facebook-logo.png"/>
                 </a>
                 <a href="https://plus.google.com/106423806976787898474">
-            	<img width="40" height="40" src="googleplus-logo.png"/>
+            	   <img width="40" height="40" src="googleplus-logo.png"/>
                 </a>
                 <iframe width="100%" src="https://www.youtube.com/embed/oO92u8ljn0g" frameborder="0" allowfullscreen></iframe>
-                </div>
             </div>
         </div>
     </div>
@@ -175,5 +178,7 @@
             <p>&copy 2015 Ryan O'Riordan | Website by Sally Luong</p>
         </div>
     </footer>
+    <script src="dist/js/jquery-2.1.4.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
 </body>
 </html>
