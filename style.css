@@ -5,8 +5,22 @@ body {
     border: 0px
 }
 
+a {
+    font-family: Open Sans;
+}
+
+h1 {
+    color: #F8DD90;
+    font-size: 40pt;
+}
+
 hr {
     color: #2b3340
+    margin: 0px;
+}
+
+.main{
+    margin-bottom: 10px;
 }
 
 .main h2 {
@@ -30,32 +44,24 @@ hr {
     padding-right: 10px;
 }
 
-table {
-    margin: auto;
-    padding: auto;
-    width: 100%;
+.price-table p {
+    margin: 0px;
+    padding: 0px;
 }
 
-.table-header{
+.table-header {
     background-color: #4bb499;
+    margin: 0px;
+    text-align: center;
+    border-top: 1px solid #2b3340;
 }
 
-tr > td > h3 {
+.table-header > h3 {
     font-family: Open Sans, sans-serif;
     text-align: center;
     color: #2b3340;
     margin: auto;
     padding: auto;
-}
-
-td {
-    margin: auto;
-    padding: auto;
-}
-
-td p {
-    padding: 0px;
-    margin: 0px;
 }
 
 .price {
@@ -96,17 +102,15 @@ iframe {
     padding: 0px;
 }
 
-#footer {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
+.footer {
     background-color: #2b3340;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    clear: both;
 }
 
-#footer p {
+.footer p {
     font-family: Helvetica;
     color: #59879e;
-    padding-left: 30px;
 }
