@@ -7,6 +7,14 @@ body {
     padding-bottom: 50px;
 }
 
+a {
+    font-family: Open Sans;
+    color: #6ca8c5;
+    text-decoration: none;
+}
+
+/* Navigation */
+
 .navbar-custom {
     position: fixed;
     top: 0px;
@@ -33,7 +41,7 @@ body {
 }
 
 .navbar-custom a {
-    color: #F8DD90;
+    color: #6ca8c5;
 }
 
 .navbar-custom a:hover {
@@ -56,6 +64,8 @@ body {
     color: #F8DD90;
 }
 
+/* Branding Header */
+
 .brand {
     z-index: 2000;
     position: fixed;
@@ -69,16 +79,12 @@ body {
     text-decoration: none;
 }
 
-a {
-    font-family: Open Sans;
-    color: #6ca8c5;
-    text-decoration: none;
-}
-
 h1 {
     color: #F8DD90;
     font-size: 40pt;
 }
+
+/* Main */
 
 .container hr {
     margin: 0px;
@@ -100,6 +106,12 @@ h1 {
     padding-right: 10px;
 }
 
+.main iframe {
+    padding: 10px;
+}
+
+/* Table */
+
 .price-table p {
     margin: 0px;
     padding: 0px;
@@ -115,7 +127,7 @@ h1 {
 .table-header > h3 {
     font-family: Open Sans, sans-serif;
     text-align: center;
-    color: #2b3340;
+    color: #2B3340;
     margin: auto;
     padding: auto;
 }
@@ -123,6 +135,37 @@ h1 {
 .price {
     text-align: right;
 }
+
+/* Forms */
+
+.main form {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #2B3340;
+}
+
+.form-control {
+    border-radius: 0px;
+    background-color: #FBEEC7;
+    border-color: #CACCCF;
+}
+
+/* Buttons */
+
+.btn-custom {
+    border-radius: 0px;
+    border-color: #2B3340;
+    color: #2B3340;
+    background-color: #4BB499;
+    float: right;
+}
+
+.btn-custom:hover{
+    background-color: #2B3340;
+    color: #6ca8c5;
+}
+
+/* Side bar */
 
 .side {
     padding: auto;
@@ -137,6 +180,7 @@ h1 {
     font-family: Open Sans, sans-serif;
     margin: 0px;
     padding: 0px;
+    border-top: 1px solid #2B3340;
 }
 
 .side p {
@@ -148,10 +192,13 @@ h1 {
     padding: 4px;
 }
 
-iframe {
+.side iframe {
+    align: center;
     margin: 5px, 0px, 5px, 0px;
     padding: 0px;
 }
+
+/* Footer */
 
 .footer {
     background-color: #2b3340;
@@ -164,4 +211,5 @@ iframe {
 .footer p {
     font-family: Helvetica;
     color: #59879e;
+    margin: 3px;
 }
