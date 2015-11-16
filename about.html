@@ -4,6 +4,14 @@
     <link href='dist/css/bootstrap.min.css' rel='stylesheet'>
 	<link href='style.css'rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        var index=0;
+        function changeBanner(){ 
+          [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
+          index = (index+1) % document.images.length;
+        }
+        window.onload = function () {setInterval(changeBanner, 2000)};
+    </script>
 	<title>Ryan O'Riordan</title>
 </head>
 <body>
@@ -48,7 +56,7 @@
     <!-- Main content -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div class="main">
                     <h2>ABOUT RYAN</h2> <hr />
                     <p>Ryan O'Riordan is a singer and songwriter from London. Pulling influence from Jazz and Soul, his music lets your feet free and your ears screaming for more.</p> 
@@ -61,7 +69,7 @@
                 </div>
             </div>
             <!-- Side bar -->
-            <div class="col-sm-3 side">
+            <div class="col-md-3 side">
                 <h2>FOLLOW ME</h2>
                 <hr />
                 <a href="http://www.facebook.com/ryanthesingingteacher">

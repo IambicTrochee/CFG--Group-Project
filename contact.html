@@ -4,6 +4,16 @@
     <link href='dist/css/bootstrap.min.css' rel='stylesheet'>
 	<link href='style.css'rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-70225502-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 	<title>Ryan O'Riordan</title>
 </head>
 <body>
@@ -48,35 +58,42 @@
     <!-- Main content -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div class="main">
+
+
+
+                    <!-- START CHANGING HERE -->
                     <h2>CONTACT</h2> <hr />
                     <p>I'd love to hear from you, so feel free to leave a message.</p>
-                    <form action="MAILTO: sally.luong@gmail.com" method="post" enctype="text/plain">
+                                        <form action="MAILTO:sally.luong@gmail.com" method="post" enctype="text/plain">
                         <div class="form-group">
                             <label for="input-name">Name:</label>
-                            <input type="text" class="form-control" id="input-name" placeholder="Name">
+                            <input type="text" class="form-control" name="name" value="" placeholder="Name">
                         </div>
                         <div class="form-group">
-                            <label for="input-email">Email:</label>
-                            <input type="email" class="form-control" id="input-email" placeholder="Your email address">
+                            <label for="input-email">E-mail:</label>
+                            <input type="email" class="form-control" name="mail" value="" placeholder="Your email">
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject:</label>
-                            <input type="text" class="form-control" id="input-subject" placeholder="Subject">
+                            <input type="text" class="form-control" name="subject" value="">
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <textarea class="form-control" name="message" value="" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-custom">SUBMIT</button>
+                        <input type="submit" value="SUBMIT" class="btn btn-custom">
                     </form>
+
+
+
                     <br />
                     <br />
                 </div>
             </div>
             <!-- Side bar -->
-            <div class="col-sm-3 side">
+            <div class="col-md-3 side">
                 <h2>FOLLOW ME</h2>
                 <hr />
                 <a href="http://www.facebook.com/ryanthesingingteacher">
