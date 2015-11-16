@@ -1,0 +1,237 @@
+body {
+    background-color: #F8DD90;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+a {
+    font-family: Open Sans;
+    color: #6ca8c5;
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.navbar-custom {
+    position: fixed;
+    top: 0px;
+    background-color: #2B3340;
+    border-radius: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #2b3340;
+  background-color: #4bb499;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #2b3340;
+  background-color: #4bb499;
+}
+
+.icon-bar {
+    background-color: #F8DD90;
+}
+
+.navbar-custom a {
+    color: #6ca8c5;
+}
+
+.navbar-custom a:hover {
+    background-color: #4BB499;
+}
+
+.dropdown-menu > .active > a {
+    background-color: #4BB499;
+}
+
+.dropdown {
+    background-color: #2B3340;
+}
+
+.dropdown-menu {
+    background-color: #2B3340;
+}
+
+.dropdown-menu li a {
+    color: #F8DD90;
+}
+
+/* Branding Header */
+
+.brand {
+    z-index: 2000;
+    position: fixed;
+    top: 8px;
+    left: 5px;
+}
+
+.brand a {
+    font-size: 30pt;
+    color: #F8DD90;
+    text-decoration: none;
+}
+
+h1 {
+    color: #F8DD90;
+    font-size: 40pt;
+}
+
+/* Main */
+
+.container hr {
+    margin: 0px;
+    border-top: 1px solid #2b3340;
+}
+
+.main h2 {
+    color: #6ca8c5;
+    background-color: #2b3340;
+    font-family: Open Sans, sans-serif;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.main p {
+    font-family: Helvetica;
+    color: #2b3340;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main iframe {
+    padding: 10px;
+}
+
+/* Table */
+
+.price-table p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.table-header {
+    background-color: #4BB499;
+    margin: 0px;
+    text-align: center;
+    border-top: 1px solid #2b3340;
+}
+
+.table-header > h3 {
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    color: #2B3340;
+    margin: auto;
+    padding: auto;
+}
+
+.price {
+    text-align: right;
+}
+
+/* Forms */
+
+.main form {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #2B3340;
+}
+
+.form-control {
+    border-radius: 0px;
+    background-color: #FBEEC7;
+    border-color: #CACCCF;
+}
+
+/* Buttons */
+
+.btn-custom {
+    border-radius: 0px;
+    border-color: #2B3340;
+    color: #2B3340;
+    background-color: #4BB499;
+    float: right;
+}
+
+.btn-custom:hover{
+    background-color: #2B3340;
+    color: #6ca8c5;
+}
+
+/* Side bar */
+
+.side {
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.side h2 {
+    color: #2b3340;
+    background-color: #4BB499;
+    font-family: Open Sans, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid #2B3340;
+}
+
+.side p {
+    font-family: Helvetica, sans-serif;
+    color: #9B4600;
+}
+
+.side img {
+    padding: 4px;
+}
+
+.side iframe {
+    align: center;
+    margin: 5px, 0px, 5px, 0px;
+    padding: 0px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2b3340;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-family: Helvetica;
+    color: #59879e;
+    margin: 3px;
+}
+
+/* Ribbon */
+
+.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+.ribbon:before, .ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
