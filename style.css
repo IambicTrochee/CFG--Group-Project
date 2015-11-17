@@ -102,21 +102,15 @@ h1 {
 .main p {
     font-family: Helvetica;
     color: #2b3340;
-<<<<<<< HEAD
     padding: 10px 10px 0px 10px;
     margin: 0px;
-=======
     padding-left: 10px;
     padding-right: 10px;
->>>>>>> f87c64c17696a4cbf4ef58f28c0cbfafd029ff93
 }
 
 .main iframe {
     padding: 10px;
-<<<<<<< HEAD
     margin: 0px;
-=======
->>>>>>> f87c64c17696a4cbf4ef58f28c0cbfafd029ff93
 }
 
 /* Table */
@@ -174,7 +168,6 @@ h1 {
     color: #6ca8c5;
 }
 
-<<<<<<< HEAD
 /* Carousel */
 
 #carousel-example-generic {
@@ -182,8 +175,6 @@ h1 {
     align: center;
 }
 
-=======
->>>>>>> f87c64c17696a4cbf4ef58f28c0cbfafd029ff93
 /* Side bar */
 
 .side {
@@ -233,11 +224,9 @@ h1 {
     margin: 3px;
 }
 
-<<<<<<< HEAD
 /* Landing */
 .container-fluid {
     background-image: url("images/vincentiu-solomon.jpg");
-=======
 /* Ribbon */
 
 .ribbon {
@@ -258,5 +247,4 @@ h1 {
   border-color: #53dab6 transparent #53dab6 #53dab6;
   right: -25px;
   border-width: 17px;
->>>>>>> f87c64c17696a4cbf4ef58f28c0cbfafd029ff93
 }
