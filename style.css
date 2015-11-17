@@ -225,8 +225,10 @@ h1 {
 }
 
 /* Landing */
+
 .container-fluid {
     background-image: url("images/vincentiu-solomon.jpg");
+    
 /* Ribbon */
 
 .ribbon {
