@@ -9,7 +9,7 @@ body {
 
 a {
     font-family: Open Sans;
-    color: #6ca8c5;
+    color: #6CA8C5;
     text-decoration: none;
 }
 
@@ -26,14 +26,14 @@ a {
 
 .navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #2b3340;
-  background-color: #4bb499;
+  color: #2B3340;
+  background-color: #4BB499;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  color: #2b3340;
-  background-color: #4bb499;
+  color: #2B3340;
+  background-color: #4BB499;
 }
 
 .icon-bar {
@@ -41,7 +41,7 @@ a {
 }
 
 .navbar-custom a {
-    color: #6ca8c5;
+    color: #6CA8C5;
 }
 
 .navbar-custom a:hover {
@@ -92,8 +92,8 @@ h1 {
 }
 
 .main h2 {
-    color: #6ca8c5;
-    background-color: #2b3340;
+    color: #6CA8C5;
+    background-color: #2B3340;
     font-family: Open Sans, sans-serif;
     margin: 0px;
     padding-left: 10px;
@@ -101,7 +101,7 @@ h1 {
 
 .main p {
     font-family: Helvetica;
-    color: #2b3340;
+    color: #2B3340;
     padding: 10px 10px 0px 10px;
     margin: 0px;
     padding-left: 10px;
@@ -124,7 +124,7 @@ h1 {
     background-color: #4BB499;
     margin: 0px;
     text-align: center;
-    border-top: 1px solid #2b3340;
+    border-top: 1px solid #2B3340;
 }
 
 .table-header > h3 {
@@ -165,14 +165,17 @@ h1 {
 
 .btn-custom:hover{
     background-color: #2B3340;
-    color: #6ca8c5;
+    color: #6CA8C5;
 }
 
 /* Carousel */
 
-#carousel-example-generic {
-    width: 95%;
-    align: center;
+.carousel {
+    margin-top: 10px;
+}
+
+.carousel-caption > p {
+    color: #FFFFFF;
 }
 
 /* Side bar */
@@ -185,7 +188,7 @@ h1 {
 }
 
 .side h2 {
-    color: #2b3340;
+    color: #2B3340;
     background-color: #4BB499;
     font-family: Open Sans, sans-serif;
     margin: 0px;
@@ -211,7 +214,7 @@ h1 {
 /* Footer */
 
 .footer {
-    background-color: #2b3340;
+    background-color: #2B3340;
     padding: 3px;
     position: fixed;
     bottom: 0;
@@ -220,21 +223,57 @@ h1 {
 
 .footer p {
     font-family: Helvetica;
-    color: #59879e;
+    color: #59879E;
     margin: 3px;
 }
 
 /* Landing */
 
-.container-fluid {
-    background-image: url("images/vincentiu-solomon.jpg");
-    
+.landing {
+    background-image: url('images/austin-prock.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.headshot {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 125px;
+}
+
+.ror-landing {
+    font-size: 40pt;
+    padding-top: 160px;
+}
+
+.ryan-landing {
+    color: #4BB499;
+}
+
+.oriordan-landing {
+    color: #FFF;
+}
+
+.btn-landing {
+    color: #FFF;
+    border: 5px solid #FFF;
+    background: rgba(256, 256, 256, 0.0);
+    border-radius: 0px;
+    font-size: 20pt;
+}
+
+.btn-landing:hover{
+    color: #4BB499;
+    background: #FFF;
+}
 /* Ribbon */
 
 .ribbon {
-  
   outline:none;
   outline-color: transparent;
+  color: #FFF;
+  font-size: 40pt;
 }
 .ribbon:before, .ribbon:after {
   top: 5px;
