@@ -235,6 +235,10 @@ h1 {
     text-align: center;
 }
 
+.landing-link {
+    text-decoration: none;
+}
+
 .headshot {
     width: 250px;
     height: 250px;
@@ -267,25 +271,72 @@ h1 {
     color: #4BB499;
     background: #FFF;
 }
-/* Ribbon */
 
-.ribbon {
-  outline:none;
-  outline-color: transparent;
-  color: #FFF;
-  font-size: 40pt;
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
 }
-.ribbon:before, .ribbon:after {
-  top: 5px;
-  z-index: -10;
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
 }
-.ribbon:before {
-  border-color: #53dab6 #53dab6 #53dab6 transparent;
-  left: -25px;
-  border-width: 17px;
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
 }
-.ribbon:after {
-  border-color: #53dab6 transparent #53dab6 #53dab6;
-  right: -25px;
-  border-width: 17px;
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-2 {
+  background-image: url("https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?ixlib=rb-0.3.5&q=80&fm=jpg&s=8f64d59479be6268447c13796b4f4246");
+}
+section.module.parallax-3 {
+  background-image: url("https://images.unsplash.com/uploads/1411606977489000af84a/3ae98ccd?ixlib=rb-0.3.5&q=80&fm=jpg&s=1995393980ea404c52b8aebda95aa4a6");
+}
+section.module.parallax-1 {
+  background-image: url("https://images.unsplash.com/photo-1444623151656-030273ddb785?ixlib=rb-0.3.5&q=80&fm=jpg&s=808c1a5175c9feae1e083d00ab9539a4");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 70px;
+  }
 }
